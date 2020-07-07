@@ -76,6 +76,7 @@ void SPlaySceneViewport::Tick(const FGeometry & AllottedGeometry, const double I
 {
 	// Call FViewport each engine tick
 	SceneViewport->Draw();
+	UE_LOG(LogTemp, Warning, TEXT("IT IS TICKING!!!"));
 }
 
 
